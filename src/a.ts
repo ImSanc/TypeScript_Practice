@@ -22,3 +22,17 @@ const isOver18 : boolean = isLegal(18);
 function isLegal( age : number){
     return age>=18;
 }
+
+/** giving a function and a function an argument and its type  */
+delayTheCall( isLegal,18 );
+
+function delayTheCall (func : (age : number)=> boolean , age : number){
+    setTimeout( ()=>{
+        console.log( func(age)); 
+    },1000);
+}
+
+const doSomething : (a  : string ) => void  = (a) =>{
+    console.log("hello");
+    return 5;
+}
