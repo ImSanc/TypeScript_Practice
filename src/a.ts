@@ -32,7 +32,7 @@ function delayTheCall (func : (age : number)=> boolean , age : number){
     },1000);
 }
 
-const doSomething : (a  : string ) => void  = (a) =>{
+const doSomething : (a  : string ) => void  = (a) => {
     console.log("hello");
     return 5;
 }
