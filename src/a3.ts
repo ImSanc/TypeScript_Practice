@@ -22,4 +22,4 @@ class CEO implements Person{
 
 const Person = new CEO("sanchit",24);
 
-Person.greet("Good morning");
+console.log(Person.greet("Good morning"))
