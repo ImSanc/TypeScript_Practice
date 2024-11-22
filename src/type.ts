@@ -10,7 +10,7 @@ function logId (ID : Id){
 //This is for intersection where you want every unique property
 
 type User3 = {
-    name : number,
+    name : string,
     department : string
 }
 
@@ -28,7 +28,7 @@ const teamLead : TeamLead = {
 }
 
 //how to give array as an argument
-// we just add [] in front the type of argument it can be object or primitive type
+// we just add [] in front the type of argument it can be object or primitive
 
 console.log( findMax([1,2,3,4,5]));
 

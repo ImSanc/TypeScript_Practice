@@ -5,7 +5,7 @@ interface User {
 }
 
 
-function isLegal ( user : User) : boolean{
+function isLegal2 ( user : User) : boolean{
     return user.age >= 18;
 }
 
@@ -15,4 +15,4 @@ const user : User = {
     lastName : "mishra",
     age : 18
 }
-console.log(isLegal(user));
+console.log(isLegal2(user));
